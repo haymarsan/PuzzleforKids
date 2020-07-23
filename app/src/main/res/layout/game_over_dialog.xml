@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDialogBackground">
+
+    <Button
+        android:id="@+id/playVideo"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/playvideo" />
+
+    <Button
+        android:id="@+id/nope"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="NO"
+        android:textSize="20sp"
+        android:background="@drawable/button_orange_bg" />
+
+</RelativeLayout>

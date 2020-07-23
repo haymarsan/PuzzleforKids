@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="letter_background">
+        <item>@drawable/letter_bg</item>
+        <item>@drawable/letter_bg1</item>
+        <item>@drawable/letter_bg2</item>
+        <item>@drawable/letter_bg3</item>
+        <item>@drawable/letter_bg4</item>
+        <item>@drawable/letter_bg5</item>
+    </integer-array>
+    <integer-array name="question">
+        <item>@drawable/appledark</item>
+        <item>@drawable/bakedark</item>
+        <item>@drawable/balldark</item>
+        <item>@drawable/bananadark</item>
+        <item>@drawable/beardark</item>
+        <item>@drawable/cardark</item>
+        <item>@drawable/emzikdark</item>
+        <item>@drawable/fishdark</item>
+        <item>@drawable/fivedark</item>
+        <item>@drawable/fooddark</item>
+        <item>@drawable/fourdark</item>
+        <item>@drawable/golddark</item>
+        <item>@drawable/lampdark</item>
+        <item>@drawable/lockdark</item>
+        <item>@drawable/ninedark</item>
+        <item>@drawable/robotdark</item>
+        <item>@drawable/sharkdark</item>
+        <item>@drawable/traindark</item>
+        <item>@drawable/wolfdark</item>
+    </integer-array>
+
+    <integer-array name="answer">
+
+        <item>@drawable/apple</item>
+        <item>@drawable/bake</item>
+        <item>@drawable/ball</item>
+        <item>@drawable/banana</item>
+        <item>@drawable/bear</item>
+        <item>@drawable/car</item>
+        <item>@drawable/emzik</item>
+        <item>@drawable/fish</item>
+        <item>@drawable/five</item>
+        <item>@drawable/food</item>
+        <item>@drawable/four</item>
+        <item>@drawable/gold</item>
+        <item>@drawable/lamp</item>
+        <item>@drawable/lock</item>
+        <item>@drawable/nine</item>
+        <item>@drawable/robot</item>
+        <item>@drawable/shark</item>
+        <item>@drawable/train</item>
+        <item>@drawable/wolf</item>
+    </integer-array>
+    <string-array name="main_title">
+        <item>PUZZLE</item>
+        <item>FOR</item>
+        <item>KIDS</item>
+    </string-array>
+
+    <string-array name="game_over_title">
+        <item>GAME</item>
+        <item>OVER</item>
+    </string-array>
+</resources>

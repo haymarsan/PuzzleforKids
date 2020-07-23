@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".GameOverActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2">
+        <Button
+            android:id="@+id/soundButtonGameOver"
+            android:layout_alignParentEnd="true"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/sound_on"
+            android:onClick="soundClickGameOver"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutMidGameOver"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/your_score"
+            android:layout_marginEnd="10dp"
+            android:text="Your Score: "
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/ten_dp"
+            android:textSize="@dimen/text_size_25"
+            android:textColor="@color/colorBlack" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/your_best_score"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/your_score"
+            android:layout_marginTop="@dimen/five_dp"
+            android:text="Your Best Score: "
+            android:layout_marginStart="@dimen/ten_dp"
+            android:textSize="@dimen/text_size_25"
+            android:textColor="@color/colorBlack" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutBotGame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/grid"
+            android:layout_centerHorizontal="true"
+            android:useDefaultMargins="true"
+            android:rowCount="2"
+            android:columnCount="2">
+
+            <Button
+                android:layout_height="@dimen/eighty_dp"
+                android:layout_width="@dimen/eighty_dp"
+                android:background="@drawable/play_button_bg"
+                android:textSize="50sp"
+                android:gravity="center"
+                android:onClick="playOnClick" />
+            <Button
+                android:layout_height="@dimen/eighty_dp"
+                android:layout_width="@dimen/eighty_dp"
+                android:background="@drawable/share_button_bg"
+                android:textSize="50sp"
+                android:gravity="center"
+                android:onClick="shareOnClick" />
+
+        </GridLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

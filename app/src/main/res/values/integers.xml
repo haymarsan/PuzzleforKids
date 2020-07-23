@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="remainingTime">60</integer>
+    <integer name="volume_50">50</integer>
+    <integer name="volume_100">100</integer>
+</resources>
